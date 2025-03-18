@@ -1,18 +1,3 @@
-<!-- <template>
-    <div>
-    <Navbar />
-    <h1 class="text-2xl font-bold">Our Contractors</h1>
-    <ContractorCard name="John Doe Construction" description="Experienced in residential and commercial projects." />
-    <Footer />
-  </div>
-</template>
-  
-<script setup>
-    import ContractorCard from '@/components/ContractorCard.vue';
-    import Navbar from '@/components/Navbar.vue';
-    import Footer from '@/components/Footer.vue';
-</script> -->
-
 <template>
   <div class="font-sans bg-black text-white min-h-screen">
     <!-- Navbar -->
@@ -48,10 +33,14 @@
         </div>
       </div>
     </section>
+
+    <!-- Footer -->
+    <Footer />
   </div>
 </template>
 
 <script setup>
   import heroImg from '@/assets/images/hero.jpg';
   import Navbar from '@/presentation/components/Navbar.vue'; 
+  import Footer from '@/presentation/components/Footer.vue'; 
 </script>

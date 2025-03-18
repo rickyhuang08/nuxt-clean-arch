@@ -15,4 +15,9 @@ export default defineNuxtConfig({
       tailwindcss(),
     ],
   },
+  runtimeConfig: {
+    public: {
+      apiBase: 'http://localhost:8080/api/v1', // Change this to your actual API
+    }
+  }
 });

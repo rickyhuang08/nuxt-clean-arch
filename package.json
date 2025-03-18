@@ -12,7 +12,8 @@
   "dependencies": {
     "@pinia/nuxt": "^0.10.1",
     "@tailwindcss/vite": "^4.0.9",
-    "nuxt": "^3.6.0",
+    "nuxt": "^3.16.0",
+    "pinia-plugin-persistedstate": "^4.2.0",
     "tailwindcss": "^4.0.9",
     "vue": "latest",
     "vue-router": "latest"
